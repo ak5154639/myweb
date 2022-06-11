@@ -8,7 +8,7 @@ import ParentComponent from './components/ParentComponent';
 
 function App() {
     return ( <div className = "App" >
-        {/*<Greet name='Diana' heroName="Batman" >
+        <Greet name='Diana' heroName="Batman" >
             <button>Don't touch me</button>
         </Greet>
         <Greet name='John' heroName="Superman" />
@@ -16,7 +16,7 @@ function App() {
             <h6>This is heading under me</h6>
         </Welcome>
         <Message></Message>
-        <Counter/>*/}
+        <Counter/>
         <ParentComponent></ParentComponent>
         </div>
     );
